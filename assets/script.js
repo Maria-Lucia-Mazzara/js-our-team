@@ -44,7 +44,20 @@ const teamContainer = document.getElementById('team-container');
 // fatto ciclo for per inserire più volte i dati dell'utente nella card
 for (let i = 0; i < teamMembers.length; i++) {
   const member = teamMembers[i];
-
+  // sostituito i nomi con i singoli elementi dell'array in modo tale da farli cambiare in automatico
+  teamContainer.innerHTML += `
+  <div class="col-4">
+                <div class="team-card">
+                    <img src="./assets/${member.img}" alt="Marco Bianchi">
+                    <div class="team-info text-start">
+                        <h5 class="nome">${member.name}</h5>
+                        <p class="ruolo">${member.role}</p>
+                        <a class="email" href="">${member.email}</a>
+                    </div>
+                </div>
+            </div>
+  `
+console.log(member);
 
 }
 
