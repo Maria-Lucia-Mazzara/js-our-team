@@ -10,36 +10,15 @@
     color: white;
     display: flex;
     align-items: center;
-    overflow: hidden;
     border-radius: 6px;
     margin-bottom: 20px;
-  }
-
-  .team-card img {
-    width: 50%;
-    height: 180px;
-    object-fit: cover;
   }
 
   .team-info {
     padding: 15px;
   }
 
-  .team-info h5 {
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
+  
 
-  .team-info p {
-    margin: 0;
-  }
 
-  .team-info a {
-    color: #36c1ff;
-    text-decoration: none;
-  }
-
-  .team-info a:hover {
-    text-decoration: underline;
-  }
 
