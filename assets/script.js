@@ -36,3 +36,15 @@ const teamMembers = [
     img: "img/female3.png"
   }
 ];
+
+
+
+const teamContainer = document.getElementById('team-container');
+
+// fatto ciclo for per inserire più volte i dati dell'utente nella card
+for (let i = 0; i < teamMembers.length; i++) {
+  const member = teamMembers[i];
+
+
+}
+
